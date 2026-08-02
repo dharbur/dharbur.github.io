@@ -197,8 +197,8 @@ body {
 }
 
 .badge.building {
-    background-color: var(--badge-bg);
-    color: var(--badge-text);
+    background-color: #d99a4e;
+    color: #1a1a1a;
 }
 
 /* Animations */
