@@ -300,7 +300,7 @@ details.expandable-card .expandable-summary::-webkit-details-marker {
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: var(--success-color);
+    color: #d99a4e;
 }
 
 .project-icon {
