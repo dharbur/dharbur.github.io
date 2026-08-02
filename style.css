@@ -289,6 +289,20 @@ details.expandable-card .expandable-summary::-webkit-details-marker {
     gap: 0.75rem;
 }
 
+.project-title-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.project-role {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--success-color);
+}
+
 .project-icon {
     width: 32px;
     height: 32px;
