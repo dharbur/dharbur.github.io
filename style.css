@@ -103,33 +103,17 @@ body {
 
 .achievements {
     list-style: none;
-    padding-left: 1.1rem;
 }
 
 .achievements li {
-    position: relative;
     font-size: 1.05rem;
     color: var(--text-main);
-    padding-left: 1.1rem;
-    padding-bottom: 0.85rem;
-    border-left: 2px solid rgba(217, 154, 78, 0.35);
+    margin-bottom: 0.5rem;
 }
 
-.achievements li:last-child {
-    border-left-color: transparent;
-    padding-bottom: 0;
-}
-
-.achievements li::before {
-    content: '';
-    position: absolute;
-    left: -7px;
-    top: 0.4em;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: var(--bg-color);
-    border: 2px solid #d99a4e;
+.bullet-dash {
+    color: #d99a4e;
+    font-weight: 700;
 }
 
 /* Sections */
